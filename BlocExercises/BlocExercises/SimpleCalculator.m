@@ -8,21 +8,30 @@
 
 #import "SimpleCalculator.h"
 
+
 @implementation SimpleCalculator
 
-- (NSInteger) increaseNumberBy1:(NSInteger) number {
-    /* WORK HERE */
-    return number;
+-(NSInteger) increaseNumberBy1:(NSInteger)number {
+    return (number+1);
+}
+-(NSInteger) addNumber:(NSInteger)number1 toNumber:(NSInteger)number2 {
+    NSInteger sum;
+    sum = number1 + number2;
+    return sum;
+
+}
+- (NSInteger) remainderOfNumber:(NSInteger)dividend dividedByNumber:(NSInteger)divisor {
+    NSInteger remainder;
+    remainder = dividend%divisor;
+    return remainder;
 }
 
-- (NSInteger) addNumber:(NSInteger) number1 toNumber:(NSInteger) number2 {
-    /* WORK HERE */
-    return number1;
+
+-(NSInteger) quotientOfNumber:(NSInteger)num1 dividedByNumber:(NSInteger)num2 {
+    NSInteger quotient;
+    quotient = num1 / num2;
+    return quotient;
 }
 
-- (NSInteger) remainderOfNumber:(NSInteger) dividend dividedByNumber:(NSInteger) divisor {
-    /* WORK HERE */
-    return 0;
-}
 
 @end

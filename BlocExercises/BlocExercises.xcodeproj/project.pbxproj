@@ -15,7 +15,6 @@
 		931AB0BB1945063500B4FB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931AB0B91945063500B4FB76 /* InfoPlist.strings */; };
 		931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0C4194508D300B4FB76 /* MarysAppleHandler.m */; };
 		931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */; };
-		931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */; };
 		931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */; };
 		931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D0194660E000B4FB76 /* StringCheese.m */; };
 		931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D21946639F00B4FB76 /* StringCheeseTests.m */; };
@@ -31,6 +30,7 @@
 		936964C019496F8B0021C271 /* StuffRemembererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964BF19496F8B0021C271 /* StuffRemembererTests.m */; };
 		93BDE6B2194A6C8600F2DE30 /* WizardOfOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDE6B1194A6C8600F2DE30 /* WizardOfOz.m */; };
 		93BDE6B4194A6D3F00F2DE30 /* WizardOfOzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDE6B3194A6D3F00F2DE30 /* WizardOfOzTests.m */; };
+		AA103FEB19B96433000B8B39 /* SimpleCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -319,8 +319,8 @@
 				936964AE1947CEA30021C271 /* AwesomeCounter.m in Sources */,
 				936964C019496F8B0021C271 /* StuffRemembererTests.m in Sources */,
 				936964A41947B1980021C271 /* StarTrekArrays.m in Sources */,
-				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
 				936964AA1947C8C40021C271 /* StarTrekDictionaries.m in Sources */,
+				AA103FEB19B96433000B8B39 /* SimpleCalculator.m in Sources */,
 				936964B81948F8130021C271 /* NumberHandler.m in Sources */,
 				936964B21947E12D0021C271 /* StarTrekDictionariesTests.m in Sources */,
 			);
